@@ -18,18 +18,14 @@ namespace OBCS
         //****************************************WARNING****************************************************
         //****************CHECK sp_ARValidation sql connection database name : line 24095********************
         //public static SqlConnection connectionasync2 = new SqlConnection(@"Data Source=192.168.1.46;Initial Catalog=CoreTEST;User ID=sa;Password=BcsKing3355!;Asynchronous Processing=True;MultipleActiveResultSets=True");
-        public static SqlConnection connection = new SqlConnection(@"Data Source=192.168.1.46;Initial Catalog=CoreXDB;User ID=sa;Password=BcsKing3355!");
-        public static SqlConnection connection2 = new SqlConnection(@"Data Source=192.168.1.46;Initial Catalog=CoreXDB;User ID=sa;Password=BcsKing3355!");
-        public static SqlConnection connection3 = new SqlConnection(@"Data Source=192.168.1.46;Initial Catalog=CoreXDB;User ID=sa;Password=BcsKing3355!");
-        public static SqlConnection connection4 = new SqlConnection(@"Data Source=192.168.1.46;Initial Catalog=CoreXDB;User ID=sa;Password=BcsKing3355!");
-        public static SqlConnection connection227 = new SqlConnection(@"Data Source=192.168.1.227;Initial Catalog=CoreLinkDB2013;User ID=sa;Password=bcsroyal##55");
-        public static SqlConnection connection2272 = new SqlConnection(@"Data Source=192.168.1.227;Initial Catalog=CoreLinkDB2013;User ID=sa;Password=bcsroyal##55");
+        public static SqlConnection connection = new SqlConnection(@"Data Source=JINKIM;Initial Catalog=CoreXDB;User ID=JINKIM;Password=JINKIM");
+        public static SqlConnection connection2 = new SqlConnection(@"Data Source=JINKIM;Initial Catalog=CoreXDB;User ID=JINKIM;Password=JINKIM");
+        public static SqlConnection connection3 = new SqlConnection(@"Data Source=JINKIM;Initial Catalog=CoreXDB;User ID=JINKIM;Password=JINKIM");
+        public static SqlConnection connection4 = new SqlConnection(@"Data Source=JINKIM;Initial Catalog=CoreXDB;User ID=JINKIM;Password=JINKIM");
+        public static SqlConnection connection227 = new SqlConnection(@"Data Source=JINKIM;Initial Catalog=CoreLinkDB2013;User ID=JINKIM;Password=JINKIM");
+        public static SqlConnection connection2272 = new SqlConnection(@"Data Source=JINKIM;Initial Catalog=CoreLinkDB2013;User ID=JINKIM;Password=JINKIM");
 
-        //public static SqlConnection connection = new SqlConnection(@"Data Source=192.168.1.227;Initial Catalog=CoreLinkDB2013;User ID=sa;Password=bcsroyal##55");
-        //public static SqlConnection connection2 = new SqlConnection(@"Data Source=192.168.1.227;Initial Catalog=CoreLinkDB2013;User ID=sa;Password=bcsroyal##55");
-        //public static SqlConnection connection3 = new SqlConnection(@"Data Source=192.168.1.227;Initial Catalog=CoreLinkDB2013;User ID=sa;Password=bcsroyal##55");
-
-        public static SqlConnection BCSX3connection = new SqlConnection(@"Data Source=VAPP1\X3V9;Integrated Security=False;User ID=sa;Password=Bc$R0y@L;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
+        public static SqlConnection BCSX3connection = new SqlConnection(@"Data Source=JINKIM;Integrated Security=False;User ID=JINKIM;Password=JINKIM;Connect Timeout=30;Encrypt=False;TrustServerCertificate=False;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
 
         public static int TimeoutTime = 6000;
 
@@ -24096,7 +24092,7 @@ namespace OBCS
 
         static public void sp_ARValidation(String jsondata)
         {
-            SqlConnection connectionasync2 = new SqlConnection(@"Data Source=192.168.1.46;Initial Catalog=CoreXDB;User ID=sa;Password=BcsKing3355!;Asynchronous Processing=True;MultipleActiveResultSets=True");
+            SqlConnection connectionasync2 = new SqlConnection(@"Data Source=JINKIM;Initial Catalog=CoreXDB;User ID=JINKIM;Password=JINKIM=;Asynchronous Processing=True;MultipleActiveResultSets=True");
             try
             {
                 Task.Run(() =>
