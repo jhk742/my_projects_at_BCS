@@ -1,5 +1,5 @@
 # my_projects_at_BCS
-my projects only
+***MY PROJECTS ONLY
 
 This repository is a collection of all the projects I've worked on during my brief time as a Software Engineer at a food distribution company in Queens, NY.
 It is a combination of C# code, of which all were written using the Microsoft Visual Studio (2019) IDE, that establishes a connection with the company's database
