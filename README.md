@@ -9,3 +9,6 @@ The repository itself will not hold the entirety of the ERP system that was in u
 
 Code that may contain sensitive information to the company will be replaced with my name in the follwing manner, "JINKIM".
 
+Unfortunately, as this repository will only contain a handful of the files that comprises the ERP system, the code itself will not compile.
+As such, a first-hand experience with the different winforms or an execution of a stored procedure is not possible. I will include as many comments
+as I can within the available code to hopefully give you a coherent understanding of what is happening during execution.
