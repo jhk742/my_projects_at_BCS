@@ -15,9 +15,7 @@ namespace OBCS
 {
     class connSalesOrder
     {
-        //****************************************WARNING****************************************************
-        //****************CHECK sp_ARValidation sql connection database name : line 24095********************
-        //public static SqlConnection connectionasync2 = new SqlConnection(@"Data Source=192.168.1.46;Initial Catalog=CoreTEST;User ID=sa;Password=BcsKing3355!;Asynchronous Processing=True;MultipleActiveResultSets=True");
+        public static SqlConnection connectionasync2 = new SqlConnection(@"Data Source=192.168.1.46;Initial Catalog=CoreTEST;User ID=sa;Password=BcsKing3355!;Asynchronous Processing=True;MultipleActiveResultSets=True");
         public static SqlConnection connection = new SqlConnection(@"Data Source=JINKIM;Initial Catalog=CoreXDB;User ID=JINKIM;Password=JINKIM");
         public static SqlConnection connection2 = new SqlConnection(@"Data Source=JINKIM;Initial Catalog=CoreXDB;User ID=JINKIM;Password=JINKIM");
         public static SqlConnection connection3 = new SqlConnection(@"Data Source=JINKIM;Initial Catalog=CoreXDB;User ID=JINKIM;Password=JINKIM");
