@@ -11,7 +11,7 @@ namespace OBCS
 {
     class connectionClass
     {
-        public static SqlConnection connection2 = new SqlConnection(@"Data Source=192.168.1.46;Initial Catalog=CoreXDB;User ID=sa;Password=BcsKing3355!");
+        public static SqlConnection connection2 = new SqlConnection(@"Data Source=JINKIM;Initial Catalog=CoreXDB;User ID=JINKIM;Password=JINKIM");
 
         static public void sp_Fetch_iPadSalesOrder(DataGridView _dataGridView, DateTime fromDate, DateTime toDate)
         {
