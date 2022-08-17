@@ -14,14 +14,10 @@ namespace OBCS
 {
     class connPO
     {
-        public static SqlConnection connection = new SqlConnection(@"Data Source=192.168.1.46;Initial Catalog=CoreXDB;User ID=sa;Password=BcsKing3355!");
-        public static SqlConnection connection2 = new SqlConnection(@"Data Source=192.168.1.46;Initial Catalog=CoreXDB;User ID=sa;Password=BcsKing3355!");
-        public static SqlConnection connection3 = new SqlConnection(@"Data Source=192.168.1.46;Initial Catalog=CoreXDB;User ID=sa;Password=BcsKing3355!");
-        public static SqlConnection connection4 = new SqlConnection(@"Data Source=192.168.1.46;Initial Catalog=CoreXDB;User ID=sa;Password=BcsKing3355!");
-
-        //public static SqlConnection connection = new SqlConnection(@"Data Source=192.168.1.227;Initial Catalog=CoreLinkDB2013;User ID=sa;Password=bcsroyal##55");
-        //public static SqlConnection connection2 = new SqlConnection(@"Data Source=192.168.1.227;Initial Catalog=CoreLinkDB2013;User ID=sa;Password=bcsroyal##55");
-        //public static SqlConnection connection3 = new SqlConnection(@"Data Source=192.168.1.227;Initial Catalog=CoreLinkDB2013;User ID=sa;Password=bcsroyal##55");
+        public static SqlConnection connection = new SqlConnection(@"Data Source=JINKIM;Initial Catalog=CoreXDB;User ID=JINKIM;Password=JINKIM");
+        public static SqlConnection connection2 = new SqlConnection(@"Data Source=JINKIM;Initial Catalog=CoreXDB;User ID=JINKIM;Password=JINKIM");
+        public static SqlConnection connection3 = new SqlConnection(@"Data Source=JINKIM;Initial Catalog=CoreXDB;User ID=JINKIM;Password=JINKIM");
+        public static SqlConnection connection4 = new SqlConnection(@"Data Source=JINKIM;Initial Catalog=CoreXDB;User ID=JINKIM;Password=JINKIM");
         public static int TimeoutTime = 480;
 
         static public bool getPOinfo(string PONo, TextBox POMemo)
