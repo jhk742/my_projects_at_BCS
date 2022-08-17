@@ -23,6 +23,12 @@ namespace OBCS.Sales
             connPO.cbox_getVendorID(cbo_SupplierID);
 
         }
+        
+        /* 
+           grid_all_Init() initializes the grid that is to load when the corresponding WinForms ReportViewer Control 
+           is loaded from a user on the ERP software. Data for each column is extracted from the company's database by 
+           binding Events such as the click of a button (on a winforms properties) to a SSMS stored procedure.
+        */
         private void grid_all_Init()
         {
             grid_AR.AutoGenerateColumns = false;
@@ -380,13 +386,19 @@ namespace OBCS.Sales
 
             foreach (DataGridViewColumn c in grid_AR.Columns)
             {
-                //c.DefaultCellStyle.Font = new Font("Arial", 20F, GraphicsUnit.Pixel);
                 c.DefaultCellStyle.Font = new Font("Arial", 8F, FontStyle.Bold);
             }
 
             grid_AR.ColumnHeadersDefaultCellStyle.Font = new Font("Arial", 8F, FontStyle.Bold);
         }
-
+    
+        /*
+        btn_search_Click()
+        
+        Clicking the "Search" button would extract data from certain columns, send them in as arguments into a function, 
+        "sp_PurchaseOrcerExceptionReport" within a "connSalesOrder" folder, which will in-turn send these same arguments in as variables for datatypes 
+        I would declare in a stored procedure to help query for the data that I need from whatever table.
+        */
         private void btn_search_Click(object sender, EventArgs e)
         {
             String POFromX3 = "";
@@ -416,6 +428,7 @@ namespace OBCS.Sales
             //connSalesOrder.sp_AROPENCLOSE2(grid_AR, GetDate, CheckNumber, CustomerID, ARStatus);
         }
 
+        // Would export the data into a pre-defined layout for printing. Other times, the data would open up on a pre-defined Excel sheet.
         private void btn_export_Click(object sender, EventArgs e)
         {
             String POFromX3 = "";
