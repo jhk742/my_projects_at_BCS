@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.1.32407.343
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OBCS", "OBCS\OBCS.csproj", "{A7D04E2E-C278-43C4-93E5-3FD30750AF91}"
+Project("{JINKIM}") = "OBCS", "OBCS\OBCS.csproj", "{JINKIM}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{A7D04E2E-C278-43C4-93E5-3FD30750AF91}.Debug|Any CPU.ActiveCfg = Release|Any CPU
-		{A7D04E2E-C278-43C4-93E5-3FD30750AF91}.Debug|Any CPU.Build.0 = Release|Any CPU
-		{A7D04E2E-C278-43C4-93E5-3FD30750AF91}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{A7D04E2E-C278-43C4-93E5-3FD30750AF91}.Release|Any CPU.Build.0 = Release|Any CPU
+		{JINKIM}.Debug|Any CPU.ActiveCfg = Release|Any CPU
+		{JINKIM}.Debug|Any CPU.Build.0 = Release|Any CPU
+		{JINKIM}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{JINKIM}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {0839E04C-F99A-44AD-B4FA-3430BA97C2E4}
+		SolutionGuid = {JINKIM}
 	EndGlobalSection
 EndGlobal
