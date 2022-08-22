@@ -11,3 +11,7 @@ Code that may contain sensitive information to the company will be replaced with
 Unfortunately, as this repository will only contain a handful of the files that comprises the ERP system, the code itself will not compile.
 As such, neither a first-hand experience with the different winforms nor an execution of a stored procedure is possible. I will include as many comments
 as I can within the available code to hopefully give you a coherent understanding of what is happening during execution.
+
+In general however, the control flow is quite simple. Physical functions (i.e. A BUTTON) are included within these created Winforms (within file "OBCS"), the code for which will eventually call a function from within a "connections" page (connSalesOrder, connPO, etc. = they help establish a connection with the company's database). These functions within the "connections" page act as the middle-man between the C# and SQL components that comprise the ERP system, sending and receiving data from both ends.
+
+  - Continuing on with the example of a button: Once the button is clicked, relevant data that is being displayed within the winform will be stored within their own variables and sent in as arguments to help structure the query of a specific stored procedure. 
