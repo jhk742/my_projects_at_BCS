@@ -1,4 +1,4 @@
-# my_projects_at_BCS
+# My Projects at BCS
 
 This repository is a collection of all the projects I've worked on during my brief time as a Software Engineer at a food distribution company in Queens, NY.
 
